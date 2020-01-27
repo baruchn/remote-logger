@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>32D5888A-F048-4025-B34C-0A4B9F75A8E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>32D5888A-F048-4025-B34C-0A4B9F75A8E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Remote Logger Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Remote Logger Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Remote Logger Test</string>
+			<key>timeStartedRecording</key>
+			<real>601800996.70222604</real>
+			<key>timeStoppedRecording</key>
+			<real>601800996.73879695</real>
+			<key>title</key>
+			<string>Build Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>32D5888A-F048-4025-B34C-0A4B9F75A8E4</string>
+		</dict>
+		<key>474098CB-5292-4AA5-8A77-FACF849EF991</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>474098CB-5292-4AA5-8A77-FACF849EF991.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Remote Logger Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Remote Logger Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Remote Logger Test</string>
+			<key>timeStartedRecording</key>
+			<real>601800916.05478096</real>
+			<key>timeStoppedRecording</key>
+			<real>601800922.052935</real>
+			<key>title</key>
+			<string>Build Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>474098CB-5292-4AA5-8A77-FACF849EF991</string>
+		</dict>
+		<key>6347CF24-7854-490B-8D44-65B086160836</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6347CF24-7854-490B-8D44-65B086160836.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Remote Logger Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Remote Logger Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Remote Logger Test</string>
+			<key>timeStartedRecording</key>
+			<real>601801023.64448202</real>
+			<key>timeStoppedRecording</key>
+			<real>601801025.001104</real>
+			<key>title</key>
+			<string>Build Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>6347CF24-7854-490B-8D44-65B086160836</string>
+		</dict>
+		<key>A2D1FE6B-2DBE-44E9-824A-8277A7E1D788</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A2D1FE6B-2DBE-44E9-824A-8277A7E1D788.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Remote Logger Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Remote Logger Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean Remote Logger Test</string>
+			<key>timeStartedRecording</key>
+			<real>601797885.59828997</real>
+			<key>timeStoppedRecording</key>
+			<real>601797885.87232196</real>
+			<key>title</key>
+			<string>Clean Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>A2D1FE6B-2DBE-44E9-824A-8277A7E1D788</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

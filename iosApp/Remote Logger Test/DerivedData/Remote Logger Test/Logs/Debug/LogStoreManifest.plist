@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>00B44DA5-23E2-497B-A84F-9084A41ACDE4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>00B44DA5-23E2-497B-A84F-9084A41ACDE4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Remote Logger Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Remote Logger Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Remote Logger Test</string>
+			<key>timeStartedRecording</key>
+			<real>601800996.74325204</real>
+			<key>timeStoppedRecording</key>
+			<real>601801023.75143194</real>
+			<key>title</key>
+			<string>Debug Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>00B44DA5-23E2-497B-A84F-9084A41ACDE4</string>
+		</dict>
+		<key>1084ECD1-76A8-4AF6-A514-DE05D9D70B24</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1084ECD1-76A8-4AF6-A514-DE05D9D70B24.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Remote Logger Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Remote Logger Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Remote Logger Test</string>
+			<key>timeStartedRecording</key>
+			<real>601800922.09817004</real>
+			<key>timeStoppedRecording</key>
+			<real>601800994.43471706</real>
+			<key>title</key>
+			<string>Debug Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>1084ECD1-76A8-4AF6-A514-DE05D9D70B24</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

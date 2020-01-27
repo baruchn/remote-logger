@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>98C1C198-4A89-4BE6-B340-F11E2448403B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>98C1C198-4A89-4BE6-B340-F11E2448403B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Remote_Logger_Test-eryokcnrsqeloqedxeuprcghyglr</string>
+			<key>timeStartedRecording</key>
+			<real>601745005.12549496</real>
+			<key>timeStoppedRecording</key>
+			<real>601745008.81513</real>
+			<key>title</key>
+			<string>Build target Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>98C1C198-4A89-4BE6-B340-F11E2448403B</string>
+		</dict>
+		<key>AC6DE071-665C-475E-B385-09704B705B81</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>AC6DE071-665C-475E-B385-09704B705B81.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Remote_Logger_Test-aketkinmfdykxyciixlgmowvontl</string>
+			<key>timeStartedRecording</key>
+			<real>601801023.71331799</real>
+			<key>timeStoppedRecording</key>
+			<real>601801024.99215102</real>
+			<key>title</key>
+			<string>Build target Remote Logger Test</string>
+			<key>uniqueIdentifier</key>
+			<string>AC6DE071-665C-475E-B385-09704B705B81</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
