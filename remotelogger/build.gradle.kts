@@ -28,19 +28,10 @@ android {
         minSdkVersion(21)
         targetSdkVersion(29)
     }
-    dependencies {
-        implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
-        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version")
-
-        implementation("io.ktor:ktor-client-serialization-jvm:$ktor_version")
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_version")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
-        implementation("io.ktor:ktor-client-core-jvm:$ktor_version")
-    }
 }
 
 kotlin {
-    android()
+    val androidMain = android()
 
     val iosArm32 = iosArm32("iosArm32")
     val iosArm64 = iosArm64("iosArm64")
@@ -56,11 +47,21 @@ kotlin {
                 implementation("org.jetbrains.kotlin:kotlin-stdlib")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$coroutines_version")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:$serialization_version")
-
                 implementation("io.ktor:ktor-client-core:$ktor_version")
                 implementation("io.ktor:ktor-client-serialization:$ktor_version")
             }
         }
+
+        androidMain.project.dependencies {
+            implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
+            implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version")
+            implementation("io.ktor:ktor-client-serialization-jvm:$ktor_version")
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_version")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
+            implementation("io.ktor:ktor-client-core-jvm:$ktor_version")
+        }
+
+        androidMain.project.kotlin.sourceSets.add(commonMain)
 
         val iosMain = if (ideaActive) {
             getByName("iosMain")
@@ -74,7 +75,6 @@ kotlin {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:$coroutines_version")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime-native:$serialization_version")
-
                 implementation("io.ktor:ktor-client-ios:$ktor_version")
                 implementation("io.ktor:ktor-client-serialization-native:$ktor_version")
             }
