@@ -11,10 +11,10 @@ buildscript {
 
 val ideaActive = System.getProperty("idea.active") == "true"
 
-val kotlin_version = "1.3.61"
-val ktor_version = "1.3.0"
-val coroutines_version = "1.3.2"
-val serialization_version = "0.14.0"
+val kotlin_version: String by project
+val ktor_version: String by project
+val coroutines_version: String by project
+val serialization_version: String by project
 
 plugins {
     id("com.android.library")
@@ -58,7 +58,11 @@ kotlin {
             implementation("io.ktor:ktor-client-serialization-jvm:$ktor_version")
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_version")
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
             implementation("io.ktor:ktor-client-core-jvm:$ktor_version")
+            implementation("io.ktor:ktor-client-android:$ktor_version")
+            implementation("io.ktor:ktor-client-okhttp:$ktor_version")
+            implementation("io.ktor:ktor-client-logging-jvm:$ktor_version")
         }
 
         androidMain.project.kotlin.sourceSets.add(commonMain)

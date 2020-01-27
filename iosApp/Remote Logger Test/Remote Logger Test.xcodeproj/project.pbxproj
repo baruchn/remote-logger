@@ -13,8 +13,8 @@
 		E8675B6523DDE65C0011E20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8675B6423DDE65C0011E20C /* Assets.xcassets */; };
 		E8675B6823DDE65C0011E20C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8675B6723DDE65C0011E20C /* Preview Assets.xcassets */; };
 		E8675B6B23DDE65C0011E20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8675B6923DDE65C0011E20C /* LaunchScreen.storyboard */; };
-		E889591523DEC0D0009B5E1D /* RemoteLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E889591323DEC0CD009B5E1D /* RemoteLogger.framework */; };
-		E889591623DEC0D0009B5E1D /* RemoteLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E889591323DEC0CD009B5E1D /* RemoteLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E889591923DF17AB009B5E1D /* RemoteLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E889591723DF17A6009B5E1D /* RemoteLogger.framework */; };
+		E889591A23DF17AB009B5E1D /* RemoteLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E889591723DF17A6009B5E1D /* RemoteLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E889591623DEC0D0009B5E1D /* RemoteLogger.framework in Embed Frameworks */,
+				E889591A23DF17AB009B5E1D /* RemoteLogger.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +40,7 @@
 		E8675B6723DDE65C0011E20C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8675B6A23DDE65C0011E20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8675B6C23DDE65C0011E20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E889591323DEC0CD009B5E1D /* RemoteLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RemoteLogger.framework; path = "../../common/build/fat-framework/RemoteLogger.framework"; sourceTree = "<group>"; };
+		E889591723DF17A6009B5E1D /* RemoteLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RemoteLogger.framework; path = "../../remotelogger/build/fat-framework/RemoteLogger.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E889591523DEC0D0009B5E1D /* RemoteLogger.framework in Frameworks */,
+				E889591923DF17AB009B5E1D /* RemoteLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		E8675B5223DDE6590011E20C = {
 			isa = PBXGroup;
 			children = (
-				E889591323DEC0CD009B5E1D /* RemoteLogger.framework */,
+				E889591723DF17A6009B5E1D /* RemoteLogger.framework */,
 				E8675B5D23DDE6590011E20C /* Remote Logger Test */,
 				E8675B5C23DDE6590011E20C /* Products */,
 			);

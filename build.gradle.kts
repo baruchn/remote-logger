@@ -1,5 +1,9 @@
 buildscript {
     extra["kotlin_version"] = "1.3.61"
+    extra["ktor_version"] = "1.3.0"
+    extra["coroutines_version"] = "1.3.3"
+    extra["serialization_version"] = "0.14.0"
+
     val kotlin_version = "1.3.61"
     val gradle_android_version = "4.0.0-alpha09"
 

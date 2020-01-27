@@ -22,7 +22,7 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.d(TAG, "onCreateView: ${RemoteLogger.getMessage()}")
+//        Log.d(TAG, "onCreateView: ${RemoteLogger.getMessage()}")
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_first, container, false)
     }

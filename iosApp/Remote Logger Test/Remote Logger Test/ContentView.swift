@@ -11,7 +11,7 @@ import RemoteLogger
 
 struct ContentView: View {
     var body: some View {
-        Text(RemoteLogger().getMessage())
+        Text(RemoteLogger().sendMessage())
     }
 }
 

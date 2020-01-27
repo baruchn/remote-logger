@@ -5,6 +5,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
+import il.co.napps.remotelogger.RemoteLogger
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,9 +16,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+        var c = 0
+        val url = "https://sdklog.oriient.me/api/log"
+        val message = mutableMapOf<String, Any>()
+
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            message["message"] = "TestMessage $c"
+            RemoteLogger.sendMessage(url, message)
+            c++
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                .setAction("Action", null).show()
         }
     }
 
